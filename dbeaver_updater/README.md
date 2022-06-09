@@ -16,4 +16,4 @@
 - ### Auto detect your linux distro
 # Disclamer
 ### I'm not working for DBeaver. This software is not part of DBeaver.
-### I'm not responsable for any issue caused by DBeaver or this little script (if any doubt, just read the code.)
+### I'm not responsable for any issue caused by DBeaver or this little script (if any doubt, just read the code!)
