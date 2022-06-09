@@ -1,4 +1,4 @@
-from subprocess import Popen, check_output
+from subprocess import check_output
 from os.path import isfile, expanduser
 from os import system
 
@@ -19,10 +19,10 @@ with open(latest_installed_path, "r") as f:
 	if latest_version in f.readline():
 		print("Already up to date!")
 		exit(0)
-check_output(download_latest_string, shell=True)
-check_output(chmodding_string, shell=True)
+system(download_latest_string)
+system(chmodding_string)
 if system(install_latest_string) == 0:
 	with open(latest_installed_path, "w") as f:
 		f.write(f"{latest_version}\n")
 else:
-	print("Errore installazione")
+	print("DNF error!")
