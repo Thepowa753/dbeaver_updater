@@ -1,10 +1,4 @@
 # Installing
-### Via pip
-- pip install dbeaver_updater
-- - or
-- pip3 install dbeaver_updater
-- - or
-- python3 -m pip install dbeaver_updater
 ### Via git
 - git clone https://github.com/Thepowa753/dbeaver_updater.git
 - pip install ./dbeaver_updater
