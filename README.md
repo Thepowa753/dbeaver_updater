@@ -1,5 +1,5 @@
 # Installing
-##requirements
+## Requirements
 - python >= 3.10
 - pip3 install distro
 ### (Not yet..) Via git
