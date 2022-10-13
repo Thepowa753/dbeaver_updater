@@ -1,5 +1,8 @@
 # Installing
-### Via git
+##requirements
+- python >= 3.10
+- pip3 install distro
+### (Not yet..) Via git
 - git clone https://github.com/Thepowa753/dbeaver_updater.git
 - pip install ./dbeaver_updater
 ## Limitations...
